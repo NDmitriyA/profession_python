@@ -1,8 +1,6 @@
 import datetime
 import time
-import people
-import salary
-
+from Modul_pacet.dirty_main import people, salary
 
 CreatData = datetime.datetime.today().strftime("%d-%m-%y")
 CreatTime = time.strftime("%H.%M.%S")
